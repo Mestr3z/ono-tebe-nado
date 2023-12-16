@@ -21,12 +21,20 @@
     height: 105px;
 }
 
-.navigation__list {
+.navigation {
     display: flex;
     align-items: center;
-    gap: 32px;
-    font-size: 18px;
+}
 
+.navigation:nth-child(2){
+    align-items: flex-start;
+    text-align: center;
+}
+
+.navigation__list {
+    display: flex;
+    font-size: 18px;
+    gap: 32px;
 }
 
 .navigation__list_pages {
@@ -233,7 +241,7 @@
 
 .about {
     display: flex;
-    margin-top: 175px;
+    margin-top: 179px;
 }
 
 .about__logo-container {
@@ -278,7 +286,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 173px 58px 89px 58px;
+    margin: 180px 58px 89px 58px;
 }
 
 .footer__navigation_list {
