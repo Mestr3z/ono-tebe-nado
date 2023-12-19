@@ -12,78 +12,85 @@
 </head>
 
 <body>
-  <main>
-    <header class="header">
+  
+    <header class="header" id="header">
       <nav class="navigation">
       <ul class="navigation__list">
         <li class="navigation__list_pages">
           <a class="navigation__list_pages_link underscore"
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">главная</a>
+            href="#header">главная</a>
         </li>
         <li class="navigation__list_pages">
-          <a class="navigation__list_pages_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">посмотреть лоты</a>
+          <a class="navigation__list_pages_link" href="#lots">посмотреть лоты</a>
         </li>
         <li class="navigation__list_pages">
-          <a class="navigation__list_pages_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">об аукционе</a>
+          <a class="navigation__list_pages_link" href="#about">об аукционе</a>
         </li>
       </ul>
     </nav>
-      <a class="header__logo" href="https://www.youtube.com/watch?v=vWwgrjjIMXA&list=RDMM&index=6">
+      <a class="header__logo" href="#">
         <img class="header__logo_image" src="./images/logo-black.svg" alt="изображение логотипа">
       </a>
       <adress class="navigation__info">
-        <a class="navigation__info_tel" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-        <a class="navigation__info_email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="navigation__info_links" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+        <a class="navigation__info_links" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="navigation__adress">наб. Принсенграхт 263-265, Амстердам</p>
       </adress>
     </header>
+    <main>
     <section class="cover">
-      <div class="cover__overlay"></div>
+      <div class="overlay"></div>
       <h1 class="cover__title">
-        <span class="cover__title_first-letter">он<span class="cover__title_second-letter">о</span></span>
-        <span class="cover__title_first-letter">теб<span class="cover__title_second-letter">е</span></span>
-        <span class="cover__title_first-letter">н<span class="cover__title_second-letter">адо</span></span>
+        <span class="cover__title_first-letter">он <span class="cover__title_second-letter">о</span></span>
+        <span class="cover__title_first-letter">теб <span class="cover__title_second-letter">е</span></span>
+        <span class="cover__title_first-letter">н <span class="cover__title_second-letter">адо</span></span>
       </h1>
       <div class="cover__subtitle">
         <p class="cover__subtitle_text">Аукцион вещей, в которые никто не верил</p>
         <button class="cover__subtitle_button">Сделать ставку</button>
       </div>
     </section>
-    <section class="lots">
+    <section class="lots" id="lots">
       <h2 class="lots__title">лоты</h2>
       <ul class="lots__container">
         <li class="lots__container_lot">
-          <a class="lots__container_lot-link" href="https://www.youtube.com/watch?v=71440F93Etw">
-            <div class="lots__container_lot_overlay"></div>
+          <a class="lots__container_lot-link" href="#">
+            <article class="lots__container_lot-link_main">
+            <div class="overlay"></div>
             <h3 class="lots__container_lot_title">Фильм режиссёра, который бросил киношколу</h3>
             <p class="lots__container_lot_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
               если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </article>
           </a>
         </li>
         <li class="lots__container_lot lots__container_second-lot">
-          <a class="lots__container_lot-link" href="https://www.youtube.com/watch?v=9GkVhgIeGJQ">
-            <div class="lots__container_lot_overlay"></div>
+          <a class="lots__container_lot-link" href="#">
+            <article class="lots__container_lot-link_main">
+            <div class="overlay"></div>
             <h3 class="lots__container_lot_title">Книга, где описан один скучный день из жизни рекламного агента</h3>
             <p class="lots__container_lot_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
               литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы
               поставили на «Улисса» Джеймса Джойса?</p>
+            </article>
           </a>
         </li>
         <li class="lots__container_lot lots__container_third-lot">
-          <a class="lots__container_lot-link" href="https://www.youtube.com/watch?v=djV11Xbc914">
-            <div class="lots__container_lot_overlay"></div>
+          <a class="lots__container_lot-link" href="#">
+            <article class="lots__container_lot-link_main">
+            <div class="overlay"></div>
             <h3 class="lots__container_lot_title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
             <p class="lots__container_lot_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее
               на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали,
               что это — одна из революционных работ Кандинского?</p>
+            </article>
           </a>
         </li>
       </ul>
-      <a class="lots__link" href="https://www.youtube.com/watch?v=p_5yt5IX38I">посмотреть больше</a>
+      <a class="lots__link" href="#">посмотреть больше</a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__logo-container">
         <img class="about__logo_container_pic" src="./images/logo-white.svg" alt="логотип проекта">
       </div>
@@ -100,38 +107,45 @@
           культовыми.</p>
       </div>
     </section>
+  </main>
     <footer class="footer">
       <adress class="navigation__info">
-        <a class="navigation__info_tel" href="tel:+9 999 555 5555">+9 999 555 5555</a>
-        <a class="navigation__info_email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="navigation__info_links" href="tel:+9 999 555 5555">+9 999 555 5555</a>
+        <a class="navigation__info_links" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="navigation__adress">наб. Принсенграхт 263-265, Амстердам</p>
       </adress>
-      <nav class="navigation">
+      <nav class="navigation footer__navigation">
       <ul class="navigation__list footer__navigation_list">
         <li class="navigation__list_pages">
           <a class="navigation__list_pages_link underscore"
-            href="https://www.youtube.com/watch?v=LK1qjUSTTeI">главная</a>
+            href="#header">главная</a>
         </li>
         <li class="navigation__list_pages footer__list_pages">
-          <a class="navigation__list_pages_link" href="https://www.youtube.com/watch?v=DKpaKHUlyBY">посмотреть лоты</a>
+          <a class="navigation__list_pages_link" href="#lots">посмотреть лоты</a>
         </li>
         <li class="navigation__list_pages footer__list_pages">
-          <a class="navigation__list_pages_link" href="https://www.youtube.com/watch?v=dKaqQibJOXg">об аукционе</a>
+          <a class="navigation__list_pages_link" href="#about">об аукционе</a>
         </li>
       </ul>
     </nav>
-      <div class="footer__links">
-        <a class="footer__links_link" href="https://www.youtube.com/watch?v=m9ufOljsFZQ">
+      <ul class="footer__links">
+        <li class="footer__links_list">
+        <a class="footer__links_link" href="#">
           <img class="footer__links__link-pic" src="./images/yt.svg" alt="логотип youtube">
         </a>
-        <a class="footer__links_link" href="https://www.youtube.com/watch?v=dtkeaeVAPIs">
+      </li>
+      <li class="footer__links_list">
+        <a class="footer__links_link" href="#">
           <img class="footer__links__link-pic" src="./images/vk.svg" alt="логотип vk">
         </a>
-        <a class="footer__links_link" href="https://www.youtube.com/watch?v=BXqPNlng6uI">
+      </li>
+      <li class="footer__links_list">
+        <a class="footer__links_link" href="#">
           <img class="footer__links__link-pic" src="./images/pinterest.svg" alt="логотип pinterest">
         </a>
-      </div>
+      </li>
+      </ul>
     </footer>
-  </main>
+  
 </body>
 </html>

@@ -12,3 +12,4 @@
 - CSS
 
 [Link to the project](https://github.com/Mestr3z/ono-tebe-nado.git)
+[Link to the pages](https://mestr3z.github.io/ono-tebe-nado/)
