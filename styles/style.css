@@ -102,23 +102,23 @@
     text-transform: uppercase;
 }
 
-.cover__title_first-letter {
+.letter-spacing-extended {
     display: block;
     width: 100%;
     letter-spacing: 30px;
 }
 
-.no-letter-spacing{
-    letter-spacing: 0;
-}
 
 
-.cover__title_first-letter:nth-child(2) {
+
+.letter-spacing-extended:nth-child(2) {
     text-align: center;
+    line-height: 100%;
 }
 
-.cover__title_first-letter:nth-child(3) {
+.letter-spacing-extended:nth-child(3) {
     text-align: right;
+    line-height: 100%;
 }
 
 .cover__title_second-letter {
