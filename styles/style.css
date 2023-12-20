@@ -1,7 +1,7 @@
 .header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: end;
     margin: 0 auto;
     margin-left: 58px;
     margin-right: 58px;
@@ -100,15 +100,22 @@
     align-items: center;
     flex-direction: column;
     text-transform: uppercase;
+    gap: 18px;
 }
 
 .letter-spacing-extended {
-    display: block;
     width: 100%;
     letter-spacing: 30px;
 }
 
+.move-right{
+    width: 100%;
+    text-align: right;
+}
 
+.letter-spacing-none{
+    letter-spacing: 0;
+}
 
 
 .letter-spacing-extended:nth-child(2) {
@@ -123,6 +130,7 @@
 
 .cover__title_second-letter {
     margin-left: 0;
+    letter-spacing: 60px;
 }
 
 .line-interlining {
@@ -137,7 +145,7 @@
     align-items: center;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 143px;
+    margin-top: 131px;
     gap: 68px;
 }
 
@@ -204,7 +212,8 @@
     position: relative;
     list-style-type: none;
     max-width: 328px;
-    padding: 48px 39px 46px 39px;
+    min-height: 600px;
+    padding: 50px 40px;
     z-index: 1;
     background-size: cover;
     flex-grow: 1;
@@ -276,7 +285,7 @@
 }
 
 .about__text-container_title {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
